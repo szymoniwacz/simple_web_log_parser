@@ -1,6 +1,12 @@
-# Parser
+# Web Log Parser
 
-Parser is a Ruby script that parses a web server log file and provides statistics on the total page views and unique page views. It processes the log data, counting how many times each page has been viewed, and how many unique IPs visited each page.
+## About
+
+This project was created as a coding challenge to parse a web server log file and provide statistics on total and unique page views using Ruby. It demonstrates Command Line Interface (CLI) scripting, Object-Oriented Programming, and unit testing best practices.
+
+## Project Status
+
+:white_check_mark: Reference implementation – ready and correct, not under active development.
 
 ## Features
 
@@ -19,7 +25,7 @@ Parser is a Ruby script that parses a web server log file and provides statistic
 1. Clone the repository:
 
 ```
-git clone https://github.com/szymoniwacz/ruby_app.git
+git clone https://github.com/szymoniwacz/web-log-parser.git
 cd ruby_app
 ```
 
@@ -31,7 +37,7 @@ bundle install
 
 ## Usage
 
-1. Ensure you have a log file in the following format:
+1. Prepare a log file in the following format:
 
 ```
 /home 192.168.0.1
